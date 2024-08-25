@@ -22,7 +22,7 @@ export default tsEslint.config(
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
       prettier: prettierPlugin,
-      import: importPlugin,
+      'import-order': importPlugin,
     },
     rules: {
       ...typescriptPlugin.configs['recommended-type-checked'].rules,
