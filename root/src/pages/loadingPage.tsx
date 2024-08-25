@@ -1,4 +1,4 @@
-const Home: React.FC = () => {
+const LoadingPage: React.FC = () => {
   return (
     <div
       style={{
@@ -6,13 +6,13 @@ const Home: React.FC = () => {
         height: '100%',
         display: 'grid',
         placeContent: 'center',
-        backgroundColor: '#000',
-        color: '#fff',
+        backgroundColor: 'yellow',
+        color: 'red',
       }}
     >
-      Home
+      Loading...
     </div>
   );
 };
 
-export default Home;
+export default LoadingPage;

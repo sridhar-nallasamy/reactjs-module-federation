@@ -14,6 +14,7 @@ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 export default {
   entry: path.resolve(__dirname, 'src/index.ts'),
+  output: { path: path.resolve(__dirname, 'dist/'), publicPath: '/' },
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src/') },
     extensions: ['.ts', '.tsx', '.js'],
@@ -45,7 +46,6 @@ export default {
   devServer: {
     host: 'localhost',
     historyApiFallback: true,
-    open: true,
     hot: true,
   },
 };

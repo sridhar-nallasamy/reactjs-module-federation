@@ -1,3 +1,4 @@
+import CenterDiv from '@/components/centerDiv';
 import { useRouteError } from 'react-router-dom';
 
 const ErrorPage: React.FC = () => {
@@ -5,10 +6,10 @@ const ErrorPage: React.FC = () => {
   console.error(error);
 
   return (
-    <div id="error-page">
-      <h1>Oops!</h1>
+    <CenterDiv>
+      <h1>Oops! 🙁</h1>
       <p>Sorry, an unexpected error has occurred.</p>
-    </div>
+    </CenterDiv>
   );
 };
 
