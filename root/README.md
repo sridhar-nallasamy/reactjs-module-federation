@@ -1,3 +1,3 @@
 # React Module Federation
 
-😊 Practise Repo
+😊 Practise Root Repo
